@@ -7,8 +7,8 @@ class Linea extends Figura{
   }
   
   public void dibujar(){
-    stroke(#02AA16);
-    fill(#02AA16);
+    stroke(#FF0A0A);
+    fill(#FF0A0A);
     line(posicion.x,posicion.y,height,posicion.y);
   }  
 }
