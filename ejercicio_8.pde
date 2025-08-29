@@ -3,8 +3,8 @@ private Circulo circulo;
 
 public void setup(){
  size(600,600); 
- circulo = new Circulo(new PVector(width/2,0),-1,1,40);
- linea = new Linea(new PVector(0,0),-1,1);
+ circulo = new Circulo(new PVector(width/2,0),-1,2,40);
+ linea = new Linea(new PVector(0,0),-1,2);
 }
 
 public void draw(){
